@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body> 
+    <h1> Find out Your Moon Phase With Your Pulse!</h1>
+    <h2> Enter your birthday and use the monitor to get your pulse.</h2>
+    <form>
+        Birth Month:<br> <input type="text" name="month">
+        <br>
+        Birth Day:<br> <input type="text" name="day">
+        <br>
+        Birth Year:<br> <input type="text" name="year">
+        <input type="submit" name= "form" value="Submit" />
+     </form>
+    <p=>Pulse: {{ pulse }} </p>    
+    <input type="button" value="Moon Phase" onclick="window.open('//widgets.astronomyapi.com/moon-phase/generated/3fa54eeb0883971850e67da3352bd7fb0e5fc6ce208f9e20d8da71854f88cb9d.png');">
+
+</body>
+</html>
